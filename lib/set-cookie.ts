@@ -215,7 +215,4 @@ function splitCookiesString(cookiesString) {
   return cookiesStrings;
 }
 
-module.exports = parse;
-module.exports.parse = parse;
-module.exports.parseString = parseString;
-module.exports.splitCookiesString = splitCookiesString;
+export default parse
